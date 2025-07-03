@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto flex flex-col items-center mt-20 pb-20">
+      <div className="container mx-auto flex flex-col items-center md:mt-20 pb-20">
         {loading && <Loader />}
         {!loading && (
           <div className="flex flex-col items-start p-6">
